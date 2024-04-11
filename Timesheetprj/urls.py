@@ -21,5 +21,7 @@ urlpatterns = [
     path('', include('events.urls')),
     path('', include('leaves.urls')),
     path('', include('profiles.urls')),
+    path('', include('Servicereqs.urls')),
     path('admin/', admin.site.urls),
+
 ]

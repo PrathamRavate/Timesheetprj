@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'projects',
     'tickets',
     'prjassignments',
+    'Servicereqs',
     'rest_framework.authtoken',
 ]
 

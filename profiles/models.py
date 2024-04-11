@@ -6,6 +6,7 @@ class Profile(models.Model):
     email = models.EmailField(unique=True)
     contact = models.CharField(max_length=15)
     user = models.OneToOneField(User, on_delete=models.CASCADE)
+    Location = models.CharField(max_length=20, null = True )
 
     DEPARTMENT_CHOICES = (
         ("SAC", "SAC"),
